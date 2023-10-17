@@ -1,5 +1,5 @@
 const CalculatorButton = () => (
-  <div className="calculator-content">
+  <section className="calculator-content">
     <input type="text" id="calculator-display" readOnly />
     <div className="buttons">
       <button type="button" id="btnClear">
@@ -64,7 +64,7 @@ const CalculatorButton = () => (
         =
       </button>
     </div>
-  </div>
+  </section>
 );
 
 export default CalculatorButton;
