@@ -1,6 +1,8 @@
+import CalculatorButton from './CalculatorButton';
+
 const Calculator = () => (
   <section className="calculator">
-    <h2>Calculator</h2>
+    <CalculatorButton />
   </section>
 );
 
