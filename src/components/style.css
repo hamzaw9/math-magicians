@@ -47,13 +47,18 @@ nav {
 
 /******** Calculator  **********/
 
+.calculator {
+  display: flex;
+  justify-content: space-between;
+}
+
 .calculator h2 {
   color: #ec5242;
   font-size: 32px;
 }
 
 .calculator-content {
-  width: 65%;
+  width: 45%;
   border-radius: 10px;
   padding: 8px;
 }

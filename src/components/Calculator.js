@@ -26,6 +26,7 @@ const Calculator = () => {
   return (
     <>
       <section className="calculator">
+        <h2>Let&apos;s do some Math!</h2>
         <div className="calculator-content">
           <CalculatorDisplay displayValue={display} />
           <CalculatorButtons onButtonClick={handleClick} />
