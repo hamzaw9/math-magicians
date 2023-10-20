@@ -4,13 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 li {
   list-style-type: none;
 }
@@ -50,6 +43,10 @@ nav {
 .calculator {
   display: flex;
   justify-content: space-between;
+  height: 85vh;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10%;
 }
 
 .calculator h2 {
@@ -58,7 +55,7 @@ nav {
 }
 
 .calculator-content {
-  width: 45%;
+  width: 30%;
   border-radius: 10px;
   padding: 8px;
 }
