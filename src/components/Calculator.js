@@ -21,7 +21,6 @@ const Calculator = () => {
   return (
     <>
       <section className="calculator">
-        <h2>Let&apos;s do some Math!</h2>
         <div className="calculator-content">
           <input value={display} type="text" id="calculator-display" readOnly />
           <div className="buttons">
