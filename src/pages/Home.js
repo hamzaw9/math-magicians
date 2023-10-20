@@ -1,3 +1,5 @@
+import './style.css';
+
 const Home = () => (
   <section className="home">
     <h1>Welcome to our Web!</h1>
