@@ -1,0 +1,21 @@
+body {
+  background-color: #272a31;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 7% 10%;
+  opacity: 0.9;
+}
+
+.home h1 {
+  color: #ec5242;
+  font-size: 36px;
+}
+
+.home p {
+  font-size: 26px;
+  color: #c2bdbd;
+}

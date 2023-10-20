@@ -4,11 +4,49 @@
   box-sizing: border-box;
 }
 
-body {
+li {
+  list-style-type: none;
+}
+
+/******** Navbar  **********/
+
+nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  padding: 20px;
+  background-color: #d3d3d3;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: xx-large;
+  font-weight: 600;
+  color: #ec5242;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 22px;
+  color: #ec5242;
+}
+
+/******** Calculator  **********/
+
+.calculator {
+  display: flex;
+  justify-content: space-between;
+  height: 85vh;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10%;
 }
 
 .calculator h2 {
@@ -17,7 +55,7 @@ body {
 }
 
 .calculator-content {
-  width: 65%;
+  width: 30%;
   border-radius: 10px;
   padding: 8px;
 }
@@ -59,4 +97,25 @@ button {
 
 button:active {
   filter: brightness(0.5);
+}
+
+/******** Quote  **********/
+
+.quote-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10%;
+  height: 85vh;
+  margin: 0;
+}
+
+.quote,
+.error {
+  color: #c2bdbd;
+  font-size: 26px;
+}
+
+.error {
+  color: red;
 }
