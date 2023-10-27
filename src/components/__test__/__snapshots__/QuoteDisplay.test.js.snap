@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuoteDisplay QuoteDisplay component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="quote-container"
+  >
+    <p
+      class="quote"
+    />
+    <p
+      class="error"
+    />
+  </div>
+</DocumentFragment>
+`;
